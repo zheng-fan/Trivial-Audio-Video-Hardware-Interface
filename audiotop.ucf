@@ -1,0 +1,23 @@
+# NET "count<0>" LOC = "P1"
+
+#NET "clk" LOC = "K22"; #X9-3
+#NET "reset" LOC = "G3"; #SW9
+NET "mclk" LOC = "C18";
+NET "lrck" LOC = "C19";
+NET "sclk" LOC = "A19";
+NET "sdin" LOC = "A20";
+NET "sdout" LOC = "B20";
+NET "PWADDA_in" LOC = "J6";
+NET "PWADDA_out" LOC = "D17";
+
+NET "start" LOC = "G1";
+
+NET "led<5>" LOC = "P1";
+NET "led<4>" LOC = "N3";
+NET "led<3>" LOC = "N1";
+NET "led<2>" LOC = "M2";
+NET "led<1>" LOC = "M1";
+NET "led<0>" LOC = "L3";
+
+#NET PWADDA_in  LOC = J6;
+#NET PWADDA_out : LOC= D17;

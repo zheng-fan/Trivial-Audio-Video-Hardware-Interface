@@ -1,0 +1,38 @@
+NET clk LOC = K22;
+NET Rst LOC = G3;
+NET PClk_out    LOC = H16;
+NET Hsync    LOC = H17;
+NET Vsync    LOC = B21;
+
+NET dvd_psave     LOC = B22;
+NET vga_blank     LOC = F18;
+NET vga_csync     LOC = F19;
+################################
+NET Vga_B(0) LOC = J19;      
+NET Vga_B(1) LOC = H20;
+NET Vga_B(2) LOC = K19;
+NET Vga_B(3) LOC = K18;
+NET Vga_B(4) LOC = G20;
+NET Vga_B(5) LOC = G22;
+NET Vga_B(6) LOC = K17;
+NET Vga_B(7) LOC = L17;   
+ 
+NET Vga_G(0) LOC = G19;
+NET Vga_G(1) LOC = F20;
+NET Vga_G(2) LOC = H18;
+NET Vga_G(3) LOC = H19;
+NET Vga_G(4) LOC = F21;
+NET Vga_G(5) LOC = F22;
+NET Vga_G(6) LOC = E20;
+NET Vga_G(7) LOC = E22;
+
+NET Vga_R(0) LOC = D22;
+NET Vga_R(1) LOC = D21;
+NET Vga_R(2) LOC = K16;
+NET Vga_R(3) LOC = L15;
+NET Vga_R(4) LOC = C22;
+NET Vga_R(5) LOC = C20;
+NET Vga_R(6) LOC = J17;
+NET Vga_R(7) LOC = J16;
+
+PIN "Inst_clk25mhz/clkout1_buf.O" CLOCK_DEDICATED_ROUTE = FALSE;
